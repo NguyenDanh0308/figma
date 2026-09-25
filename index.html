@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="en"></html>
 <html>
 <head>
     <title>Layout Website</title>
@@ -10,7 +11,6 @@
             margin: 0;
             font-family: Arial;
             width: 1366px;
-            height:3162px;
         }
         .header {
             width: 1366px;
@@ -29,8 +29,10 @@
             height: 60px;
             font-size: 20px;
             font-weight: 700;
-            font-family: 'Be Vietnam pro';
-            line-height: 100%;
+            font-family: Be Vietnam pro ;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         .menu {
             width: 820px;
@@ -38,15 +40,19 @@
             background-color: #E2E2E2;
             text-align: center;
             font-weight: bold;
+            display: flex;
             border-radius: 8px;
+            justify-content: center;
         }
         .button {
             width: 120px;
             background-color: #E2E2E2;
-            text-align: center;
             font-weight: bold;
             border-radius: 7px;
             height: 42px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         .main {
             width: 1366px;
@@ -126,24 +132,54 @@
             align-items: center;
             font-style:20px;         
             font-family: Be Vietnam pro
-
+        }
+        .items3{
+            width: 1366px;
+            display: flex;
+            gap: 30px;
+            padding-right: 83px;
+            padding-left: 83px;
+            background-color: #f1f1f1;
+            margin-bottom: 80px;
+        }
+        .item-3{
+            width: 277.5px;
+            height: 300px;
+            border-radius: 8px;
+            background-color: #E2E2E2;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            font-style:20px;         
+            font-family: Be Vietnam pro;
+            padding: 80px;
+        }
+        .footer{
+            background-color: #D9D9D9;
+            font-size: 20px;
+            width: 1366px;
+            height: 72px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .background{
+            background-color: #f1f1f1;
         }
     </style>
+      <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-
 <body>
-
     <div class="header">
         <div class="logo">Logo</div>
         <div class="menu">Menu</div>
         <div class="button">Button</div>
     </div>
-
     <div class="main">
         <div class="content">Content</div>
         <div class="image">Image</div>
     </div>
-
     <div class="title">Title</div>
     <section class="items1">
     <div class="item">Item</div>
@@ -153,6 +189,7 @@
     <div class="item">Item</div>
     <div class="item">Item</div>
 </section>
+<div class="background">
 <div class="title">Title</div>
 <section class="items2">
     <div class="item-2">Item</div>
@@ -161,7 +198,16 @@
     <div class="item-2">Item</div>
     <div class="item-2">Item</div>
 </section>
+</div>
 <div class="title">Title</div>
-<
+<section class="items3">
+    <div class="item-3">Item</div>
+    <div class="item-3">Item</div>
+    <div class="item-3">Item</div>
+    <div class="item-3">Item</div>
+</section>
+<div class="footer">
+<footer>Footer</footer>
+</div>
 </body>
 </html>
